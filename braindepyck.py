@@ -1,6 +1,6 @@
 import sys
 
-print('Brainpyck: fully-working small Brainfuck interpreter written in Python (by R3D)\nversion 1\n')
+print('Braindepyck: fully-working small Brainfuck interpreter written in Python (by R3D) (debug version)\nversion 1\n')
 if len(sys.argv) < 2:
     print('Usage: python brainpyck.py <input file>')
     exit()
@@ -18,7 +18,7 @@ braincode = open(sys.argv[1]).read()
 
 while iptr < len(braincode):
     cmd = braincode[iptr]
-    
+    print('"' + cmd + '", ' + str(iptr) + ', ' + str(cptr) + ', ' + str(cellarr) + ', ' + str(bracketPos))
     if cmd == '>': cptr += 1
     elif cmd == '<': cptr -= 1
     elif cmd == '+': cellarr[cptr] += 1
