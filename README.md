@@ -14,6 +14,7 @@ python brainpyck.py \<brainfuck program file\>
 Thats it.
 # Does it have any bugs/glitches?
 I really dont know. I think yes but i didn't found any. I tested many programs and all of them have worked nice.
+
 P.S. deadfish interpreter written in brainfuck doenst works somewhy
 # I found a bug! What i should do?
 Just create a new issue, or pull request (if you know how to solve that)
