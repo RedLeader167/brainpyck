@@ -9,7 +9,7 @@ Everything that other interpreters can. All 8 commands working nice. The only li
 # How I should use it?
 Just open console and type
 
-python brainpyck.py <brainfuck program file>
+python brainpyck.py \<brainfuck program file\>
   
 Thats it.
 # Does it have any bugs/glitches?
